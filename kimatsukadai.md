@@ -2,8 +2,8 @@
 
 画像「chick」を原画として使用する.この画像は縦1066画素,横1600画素のディジタルカラー画像である.
 
-ORG=imread('chick.png'); % 原画像の入力
-ORG= rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換
+ORG=imread('chick.png'); % 原画像の入力   
+ORG= rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換    
 imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 により,原画の読み込み,白黒濃淡画像への変換,及び表示した結果を図1に示す.
