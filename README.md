@@ -9,7 +9,8 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 により,原画の読み込み,白黒濃淡画像への変換,及び表示した結果を図1に示す.
 
 ![ひよこ](http://uploader.sakura.ne.jp/src/up162882.png?raw=true)  
-図1　白黒濃淡色の原画像
+<img src="http://uploader.sakura.ne.jp/src/up162882.png" alt="白黒ひよこ" title="ひよこ"width="76"height="102">
+ 図1　白黒濃淡色の原画像
 
 白黒にした画像の輝度値が64に満たない画素を0（黒）,64以上の値を持つ画素を1（白）とするように処理する.このような処理において基準となる値を閾値,元の画像を白と黒だけの画像とする処理を2値化という.
 
