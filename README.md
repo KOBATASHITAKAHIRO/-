@@ -8,7 +8,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 により,原画の読み込み,白黒濃淡画像への変換,及び表示した結果を図1に示す.
 
-![ひよこ](http://uploader.sakura.ne.jp/src/up162883.png?raw=true)  
+![白黒ひよこ](http://uploader.sakura.ne.jp/src/up162883.png?raw=true)  
 
  図1　白黒濃淡色の原画像
 
@@ -16,4 +16,37 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 IMG = ORG > 64; % 輝度値が64以上の画素を1，その他を0に変換
 imagesc(IMG); colormap(gray); colorbar;
+
+![64ひよこ](http://uploader.sakura.ne.jp/src/up162884.png?raw=true)  
+
+図2　輝度値64での2値化画像
+
+同様に,輝度値96,128,192にして処理を行う.
+
+IMG = ORG > 96;
+imagesc(IMG); colormap(gray); colorbar;
+
+IMG = ORG > 128;
+imagesc(IMG); colormap(gray); colorbar;
+
+IMG = ORG > 192;
+imagesc(IMG); colormap(gray); colorbar;
+
+これらの処理によって出た結果を図3~5に示す.
+
+![96ひよこ](http://uploader.sakura.ne.jp/src/up162885.png?raw=true)
+
+図3　輝度値96での2値化画像
+
+![128ひよこ](http://uploader.sakura.ne.jp/src/up162886.png?raw=true)
+
+図4　輝度値128での2値化画像
+
+![192ひよこ](http://uploader.sakura.ne.jp/src/up162887.png?raw=true)
+
+図5　輝度値192での2値化画像
+
+輝度値を増加させることにより,元の白黒画像に近づけることができる.
+
+
 
