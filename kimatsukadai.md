@@ -14,7 +14,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 白黒にした画像の輝度値が64に満たない画素を0（黒）,64以上の値を持つ画素を1（白）とするように処理する.このような処理において基準となる値を閾値,元の画像を白と黒だけの画像にする処理を2値化という.
 
-IMG = ORG > 64; % 輝度値が64以上の画素を1，その他を0に変換　　
+IMG = ORG > 64; % 輝度値が64以上の画素を1，その他を0に変換　　　　　　　　　　　　
 imagesc(IMG); colormap(gray); colorbar;
 
 ![64ひよこ](http://uploader.sakura.ne.jp/src/up162884.png?raw=true)  
