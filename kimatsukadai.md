@@ -8,7 +8,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 により,原画の読み込み,白黒濃淡画像への変換,及び表示した結果を図1に示す.
 
-![白黒ひよこ](http://uploader.sakura.ne.jp/src/up162883.png?raw=true)  
+![白黒ひよこ](https://github.com/KOBATASHITAKAHIRO/KIMATSUKADAI/blob/master/%E7%99%BD%E9%BB%92%E3%81%B2%E3%82%88%E3%81%93.PNG?raw=true)  
 
  図1　白黒濃淡色の原画像
 
