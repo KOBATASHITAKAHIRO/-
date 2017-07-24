@@ -18,7 +18,7 @@ IMG = ORG > 64; % 輝度値が64以上の画素を1，その他を0に変換　�
 
 imagesc(IMG);colormap(gray); colorbar;
 
-![64ひよこ](http://uploader.sakura.ne.jp/src/up162884.png?raw=true)  
+![64ひよこ](https://github.com/KOBATASHITAKAHIRO/KIMATSUKADAI/blob/master/%E8%BC%9D%E5%BA%A6%E5%80%A464%E3%81%B2%E3%82%88%E3%81%93.PNG?raw=true)  
 
 図2　輝度値64での2値化画像
 
@@ -35,15 +35,15 @@ imagesc(IMG); colormap(gray); colorbar;
 
 これらの処理によって出た結果を図3~5に示す.
 
-![96ひよこ](http://uploader.sakura.ne.jp/src/up162885.png?raw=true)
+![96ひよこ](https://github.com/KOBATASHITAKAHIRO/KIMATSUKADAI/blob/master/%E8%BC%9D%E5%BA%A6%E5%80%A496%E3%81%B2%E3%82%88%E3%81%93.PNG?raw=true)
 
 図3　輝度値96での2値化画像
 
-![128ひよこ](http://uploader.sakura.ne.jp/src/up162886.png?raw=true)
+![128ひよこ](https://github.com/KOBATASHITAKAHIRO/KIMATSUKADAI/blob/master/%E8%BC%9D%E5%BA%A6%E5%80%A4128%E3%81%B2%E3%82%88%E3%81%93.PNG?raw=true)
 
 図4　輝度値128での2値化画像
 
-![192ひよこ](http://uploader.sakura.ne.jp/src/up162887.png?raw=true)
+![192ひよこ](https://github.com/KOBATASHITAKAHIRO/KIMATSUKADAI/blob/master/%E8%BC%9D%E5%BA%A6%E5%80%A4192%E3%81%B2%E3%82%88%E3%81%93.PNG?raw=true)
 
 図5　輝度値192での2値化画像
 
